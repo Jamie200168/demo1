@@ -1,6 +1,10 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-# Create your views here.
+from django.http import HttpResponse
+
+def bweb(request):
+    return HttpResponse("Hello, this is the bweb view.完成")
+
 def aweb(request):
-    return HttpResponse("Hello, this is the aweb view.完成˙")
+    return HttpResponse("Hello, this is the aweb view.完成")
